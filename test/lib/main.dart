@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-void main(){
-
-runApp(MyApp());
+void main() {
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
-
-Widget build(BuildContext context){
-
- return MaterialApp(home:Center(child:Text("Afiq Nur Effendi"),),);
-}
-
+class MyApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Center(
+        child: Text("Afiq Nur Effendi"),
+     ),
+  );
+  }
 }
